@@ -1,0 +1,37 @@
+{
+    "animationData" : {
+        "rightIdle"     : [1, 0, null],
+        "rightSlip"     : [3, 1, 6],
+        "rightWalk"     : [3, 1, 4],
+        "rightLookBack" : [1, 4, null],
+        "rightJump"     : [1, 5, null],
+        "leftIdle"      : [1, 6, null],
+        "leftSlip"      : [3, 7, 6],
+        "leftWalk"      : [3, 7, 4],
+        "leftLookBack"  : [1, 10, null],
+        "leftJump"      : [1, 11, null]
+    },
+
+    "imageData" : {
+        "path" : "Character/Player/Data/player.png",
+        "length" : 6
+    },
+
+    "initialPositionData" : {
+        "x" : 0,
+        "y" : 0
+    },
+
+    "horizontalPhysicalData" : {
+        "velocityLimit" : 5,
+        "startingAcceleration" : 0.25,
+        "stoppingAcceleration" : -0.25
+    },
+
+    "verticalPhysicalData" : {
+        "fallVelocityLimit" : 16,
+        "fallAcceleration" : 1.75,
+        "riseInitialVelocity" : -16,
+        "riseAcceleration" : 0.5
+    }
+}
